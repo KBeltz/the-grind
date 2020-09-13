@@ -1,8 +1,55 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
 a {
-  color: #00B7FF;
+  color: white;
+  font-size: 1em;
+}
+a:visited {
+  color: white;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
+}
+header {
+  background-color: black;
+  color: white;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+footer {
+  background-color: black;
+  bottom: 0;
+  color: white;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+h1 {
+  margin: 0;
+}
+.header-title {
+  align-self: center;
+  padding:  1.5em;
+}
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 25%;
+  padding: 1.5em;
+}
+.wrapper {
+  margin-top: 150px;
+  padding: 50px;
 }
