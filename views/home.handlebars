@@ -1,7 +1,6 @@
 <div id="app"></div>
 <html>
 <head>
-    <script src="anime.min.js"></script>
     <style>
         body,
         html{
@@ -45,6 +44,7 @@
 <p>Tue through Fri - 8:00 am through 4 p.m</p>
 <p>Sat + Sun - 8:00 a.m through 5:45 p.m</p>
 <script>
+    const anime = require('animejs');
     const staggerVisualizerEl = document.querySelector('.stagger-visualizer');
     const fragment = document.createDocumentFragment();
     const numberOfElements = 81;
